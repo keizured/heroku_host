@@ -10,7 +10,7 @@
 <div class="vertical-menu" style="float:left;width:15%;">
   <a href="/" class="active">Home</a>
     {% for text, link in links.items() %}
-        <a href="{{ link }}">{{ text }}</a>
+        <a href="{{ link }}" class="active">{{ text }}</a>
     {% endfor %}
 </div>
 
