@@ -75,5 +75,6 @@ def numplot():
         y.append(randint(0, 100))
     fig, ax = plt.subplots()
     plt.plot(x, y, 'o')
+    plt.xlabel('X label')
     plt.savefig('static/tmp/numplot.png')
     return render_index('numplot.png')
