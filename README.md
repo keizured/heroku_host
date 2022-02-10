@@ -1,2 +1,2 @@
 # heroku_host
-Simple  program aimed to run on a heroku server
+Simple flask program aimed to run on a heroku server
